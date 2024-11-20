@@ -28,3 +28,6 @@ class RunnerTest(unittest.TestCase):
         except Exception as e:
             logging.warning('Неверный тип данных для объекта Runner')
             return e
+
+if __name__ == '__main__':
+    unittest.main()
